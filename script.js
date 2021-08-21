@@ -35,9 +35,10 @@ btn.addEventListener("click", function (event) {
 
   get_request.addEventListener("load", function (event) {
     let data = JSON.parse(event.target.responseText);
-    console.log(typeof data);
+    console.log(data);
+    console.log(data.length);
 
-    if (data.length === 0) {
+    if (data.length === 0 || data.message) {
       not_found.style.display = "block";
     } else {
       not_found.style.display = "none";
