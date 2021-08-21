@@ -1,0 +1,92 @@
+.container {
+  margin-top: 5%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 5px black;
+}
+
+.upper_div {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 30px;
+}
+
+.head {
+  color: grey;
+  font-size: 40px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#username {
+  width: 50%;
+  margin-left: 20px;
+}
+
+#btn {
+  width: 200px;
+  height: 50px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+#username_image {
+  height: 100px;
+  border: 3px solid grey;
+  padding: 3px;
+}
+
+.lower_div {
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.img {
+  display: flex;
+}
+
+#followers,
+#following {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#repos {
+  position: relative;
+  left: -300px;
+  top: 60px;
+}
+
+#repo_link {
+  list-style: none;
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.list_style {
+  margin-bottom: 20px;
+  width: 400px;
+  text-align: center;
+  border-radius: 10px;
+  height: 30px;
+}
+
+.anchor {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(214, 162, 65);
+  padding: 10px;
+  border-radius: 10px;
+  padding-inline: 20px;
+}
+
+.repos_list {
+  margin-bottom: 50px;
+}
+
+#username_name {
+  text-decoration: none;
+}

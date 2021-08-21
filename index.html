@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GITHUB WEB API</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="upper_div">
+          <h1 class="head">API Sample</h1>
+          <input
+            autocomplete="off"
+            placeholder="Github username..."
+            class="form-control"
+            type="text"
+            id="username"
+          />
+          <button class="btn btn-success" id="btn">Pull User Data</button>
+        </div>
+      </form>
+      <div style="display: none" id="lower_div" class="lower_div">
+        <h1 class="heading">
+          <span id="nameOn_github"></span><a id="username_name"></a>
+        </h1>
+        <div class="img">
+          <img alt="Username Pic" id="username_image" />
+          <h3 id="followers"></h3>
+          <h3 id="following"></h3>
+          <h3 id="repos"></h3>
+        </div>
+        <h2 class="repos_list">Repos List:</h2>
+        <div id="repo_link"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
